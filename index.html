@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MannMehar - Coming Soon</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Lora Font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Lora', serif;
+        }
+
+        .watermark {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 6rem;
+            color: rgba(255, 192, 203, 0.1); /* baby pink with opacity */
+            pointer-events: none; /* Non-clickable */
+            user-select: none;
+            white-space: nowrap;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-b from-white via-pink-100 to-pink-50 min-h-screen flex flex-col justify-center items-center relative">
+
+    <!-- Watermark Coming Soon -->
+    <div class="watermark">
+        COMING SOON
+    </div>
+
+    <!-- Main Content -->
+    <div class="text-center p-6">
+        <h1 class="text-4xl md:text-5xl font-bold text-pink-600 mb-4">Revolutionizing Mental Health in India</h1>
+        <p class="text-xl text-gray-700 italic">“Nurturing peace one mind at a time - MannMehar”</p>
+    </div>
+
+    <!-- Floating Buttons Placeholder (We’ll add links
