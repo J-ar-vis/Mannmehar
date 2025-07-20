@@ -1,0 +1,12 @@
+.watermark-container {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  width: 100vw;
+  height: 200px; /* Adjust height as needed */
+  pointer-events: none; /* Let users interact with actual content */
+  z-index: 0; /* Place behind most content */
+  transform: translateY(-50%);
+  overflow: hidden;
+}
+
